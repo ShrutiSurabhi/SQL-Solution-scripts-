@@ -1,4 +1,4 @@
-/****** 1. Write a SQL query to find the date EURO Cup 2016 started on.  ******/
+/****** Script for SelectTopNRows command from SSMS  ******/
 
-SELECT min(play_date)
-FROM [euro_cup_2016].[dbo].[match_mast]
+SELECT min(play_date) FROM match_mast;
+
